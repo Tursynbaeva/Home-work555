@@ -1,0 +1,41 @@
+body{
+    font-family: sans-serif;
+    font-size: 2rem;
+    text-align: center;    
+}
+
+.container{
+    height: 90vh;
+    width: 80vw;
+    border: 2px dashed  #000;
+    margin: 0 auto;
+    position: relative;
+}
+
+.container__red{
+    transform: translate(550px, 435px);
+    background: red;
+    height: 200px;
+    width: 200px;
+}
+
+.container__green{
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    transform: rotate(115deg);
+    background: green;
+    height: 200px;
+    width: 200px;
+    margin-left: 25%;
+}
+
+.container__blue{
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    transform: scale(2);
+    background: rgb(0, 38, 128);
+    height: 200px;
+    width: 200px;
+}
